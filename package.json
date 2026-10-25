@@ -1,0 +1,35 @@
+{
+  "name": "offload-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude Code (or any MCP client) hand sub-tasks to a local Ollama model",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "offload-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ollama",
+    "claude-code",
+    "local-llm",
+    "ai-agents",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToxinNozaki/offload.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}
