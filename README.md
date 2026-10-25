@@ -4,6 +4,8 @@
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](package.json)
 [![MCP](https://img.shields.io/badge/protocol-MCP-informational)](https://modelcontextprotocol.io)
 
+**[Website](https://toxinnozaki.github.io/offload/)**
+
 A tiny [MCP](https://modelcontextprotocol.io) server that lets an AI coding
 agent — Claude Code, or anything else that speaks MCP — hand off a sub-task
 to a **local model running in [Ollama](https://ollama.com)**, instead of
